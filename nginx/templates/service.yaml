@@ -6,7 +6,7 @@ spec:
   type: {{ .Values.service.type }}
   selector:
     project: expense
-    module: backend
+    module: nginx
     environment: dev
   ports:
   - name: nginx-svc-port
